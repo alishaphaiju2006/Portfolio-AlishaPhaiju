@@ -1,0 +1,44 @@
+section {
+    min-height: 150px;
+}
+
+#banner {
+    background-color: brown;
+    padding-left: 450px;
+}
+
+#section2 {
+    background-color: gray;
+    padding-left: 450px;
+}
+
+#section3 {
+    background-color: skyblue;
+    margin-bottom: 35px;
+    padding-left: 450px;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 300px;
+}
+
+nav {
+    background-color: silver;
+    min-height: 50px;
+    padding-top: 25px;
+}
+
+#copy {
+    text-align: center;
+}
+
+#Group1 {
+    text-align: center;
+}
+
+aside {
+    background-color: pink;
+    float: left;
+    width: 250px;
+}
