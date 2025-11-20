@@ -28,14 +28,14 @@ header nav a:hover {
 }
 
 /* HERO SECTION */
-.meow {
+.hero {
     height: 300px;
     background-color: #f2f2f2;
     padding: 80px 40px;
     text-align: center;
 }
 
-.meow span {
+.hero span {
     color: #0077ff;
     font-weight: bold;
 }
