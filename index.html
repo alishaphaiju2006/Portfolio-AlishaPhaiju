@@ -9,7 +9,8 @@
 
 <body>
 
-       <header>
+    <!-- HEADER -->
+    <header>
         <h1 class="logo">My Personal Portfolio</h1>
         <nav>
             <a href="#about">About</a>
@@ -18,43 +19,55 @@
         </nav>
     </header>
 
+    <!-- HERO SECTION -->
     <section class="hero">
         <h2>Hello, I'm <span>Alisha Phaiju</span></h2>
         <p>A student learning web development & design.</p>
     </section>
 
+    <!-- ABOUT SECTION -->
     <section id="about" class="about">
         <h2>About Me</h2>
         <p>
-            Hello! I'm a student studying at Herald college, kathmandu. I am a student passionate about coding, design and crativity.
+            Hello! I'm a student studying at Herald College, Kathmandu. I am passionate about coding, design, and creativity.
             I enjoy designing websites.
         </p>
     </section>
 
+    <!-- PROJECTS / PERSONAL INFO -->
     <section id="projects" class="projects">
-        <h2>My Personal information</h2>
+        <h2>My Personal Information</h2>
 
         <div class="project-card">
             <h3>Name</h3>
-            <p></p>
+            <p>Alisha Phaiju</p>
         </div>
 
         <div class="project-card">
             <h3>Email</h3>
-            <p></p>
+            <p>alishaphaiju2006@gmail.com</p>
         </div>
 
         <div class="project-card">
-            <h3>Message fields</h3>
-            <p></p>
+            <h3>Message Fields</h3>
+            <p>You can send me a message through the contact form below.</p>
         </div>
     </section>
 
+    <!-- CONTACT SECTION -->
     <section id="contact" class="contact">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <p>Email: alishaphaiju2006@gmail.com</p>
+
+        <form class="contact-form" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <p>© 2025 My Portfolio | All Rights Reserved</p>
     </footer>
